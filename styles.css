@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Pacifico&display=swap');
+
+:root{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    background-color: #100e17;
+    font-family: 'Inconsolata', cursive;
+    /* background-color:#64c79f; */
+}
+
+body{
+  
+    color: white;
+}
+
+
+
+
+nav{
+    
+    background-color:#64c79f;
+    opacity: 1;
+    height: 75px;
+    width: 100vw;
+    padding-top: 0%;
+    align-items: center;
+  
+    position: fixed;
+
+}
+
+ul{
+    list-style: none;
+    padding: 2px;
+    margin: 5px;
+    display: flex;
+    margin-right: 20px;
+   
+    
+}
+
+.logo {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.nav-btn{
+    text-transform: uppercase;
+   padding-right: 20px;
+   padding-top: 10px;
+   margin-top: 15px;
+  
+}
+
+.nav-btn:nth-last-of-type(4){
+  
+   align-items: center;
+    text-decoration: none;
+    margin-left: auto;  
+  
+}
+
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+   
+    margin: auto;
+}
+
+.contain{
+    
+   margin-top: 200px;
+   padding-top: -50px;
+  margin-left: 15vw;
+   margin-right: 15vw;
+   padding-bottom: 60px;
+   width: 70vw;
+   position: absolute;
+   align-content: center;
+   text-align: center;
+    border: solid white;
+    border-radius: 12px;
+    z-index: -2;
+}
+
+.cuming-soon{
+    font-size: 2.5rem;
+    font-family: 'Pacifico', cursive;
+}
+
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #100e17;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    margin-top: -20px;
+}
+
+
+.last{
+    background-color: #64c79f;
+    position: relative;
+    margin: 5px;
+    padding: 12px;
+    margin-top: 90px;
+    width: 100px;
+    border-radius: 5px;
+    color: aliceblue;
+    transition: 0.3s;
+}
+.last:last-child{
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.last:hover{
+    background-color: aliceblue;
+    color: #100e17;
+
+}
+
+.logo-name > a{
+    font-family: 'Pacifico', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 2px;
+   
+
+}
+.logo-name > a:hover{
+    color:#100e17;
+}
+
+.nav-btn > a:hover{
+    color:#100e17;
+}
+
+
+
+body::-webkit-scrollbar-track{
+    background: #100e17;
+   
+}
+
+body::-webkit-scrollbar-thumb{
+    background:#64c79f;
+    border-radius: 5px;
+}
