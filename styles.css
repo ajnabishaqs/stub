@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Pacifico&display=swap');
 
-:root{
+*{
     padding: 0;
     margin: 0;
     font-size: 16px;
@@ -17,26 +17,71 @@ body{
 
 
 
+img{
+    height: 70px;
+    width: 70px;
+}
 
-nav{
+
+
+
+
+nav {
     
     background-color:#64c79f;
-    opacity: 1;
-    height: 75px;
-    width: 100vw;
-    padding-top: 0%;
-    align-items: center;
-  
-    position: fixed;
+ 
+}
 
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #64c79f;
+}
+
+.nav-container-logo{
+    display: flex;
+    background-color: inherit;
+    color: aliceblue;
+}
+
+
+
+
+.logo-name {
+    font-family: 'Pacifico';
+    font-size: 43px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav > ul > li > a {
+    background-color: #64c79f;
 }
 
 ul{
     list-style: none;
     padding: 2px;
-    margin: 5px;
+   
     display: flex;
-    margin-right: 20px;
+    
    
     
 }
@@ -49,12 +94,12 @@ ul{
 .nav-btn{
     text-transform: uppercase;
    padding-right: 20px;
-   padding-top: 10px;
-   margin-top: 15px;
+   background-color: #64c79f;3
+   margin-top: 20px;
   
 }
 
-.nav-btn:nth-last-of-type(4){
+#home{
   
    align-items: center;
     text-decoration: none;
@@ -65,13 +110,14 @@ ul{
 
 a{
     color: aliceblue;
+    background-color: #64c79f;
     text-decoration: none;
     font-size: 20px;
    
     margin: auto;
 }
 
-.contain{
+.container{
     
    margin-top: 200px;
    padding-top: -50px;
@@ -87,16 +133,12 @@ a{
     z-index: -2;
 }
 
-.cuming-soon{
-    font-size: 2.5rem;
+.cuming_soon ,h1{
+    font-size: 4rem;
     font-family: 'Pacifico', cursive;
 }
 
 
-body::-webkit-scrollbar{
-    width: 10px;
-    background: #100e17;
-}
 
 img {
     height: 80px;
@@ -131,6 +173,7 @@ img {
     font-family: 'Pacifico', cursive;
     color: rgb(255, 255, 255);
     font-weight: 900;
+    
     font-size: 35px;
     letter-spacing: 2px;
    
@@ -142,9 +185,13 @@ img {
 
 .nav-btn > a:hover{
     color:#100e17;
+} */
+
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #100e17;
 }
-
-
 
 body::-webkit-scrollbar-track{
     background: #100e17;
