@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@200&display=swap');
+
+*{
+    font-family: 'Grandstander';
+}
+
+.container{
+    margin-top: 80px;
+    position: absolute;
+    height: auto;
+    border: solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px auto;
+    overflow: scroll;
+    height: 100px;
+    padding-top: 100px;
+    padding-bottom: 180px;
+
+}
+
+
+
+
+.card{
+   
+    border-radius: 10px;
+    background-color: #00000001;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 70%;
+    max-width: 300x;
+    min-height: 250px;
+    justify-content: space-between;
+    box-shadow: -1rem 0 3rem #000
+
+  
+}
+
+
+
+p{
+    text-align: center;
+    background-color: inherit;
+    transform: translateY(-1px);
+    font-family: 'Grandstander';
+
+
+}
+
+.card-info{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+
+    li{
+        background-color: inherit;
+    }
+}
+
+.brand{
+    position: relative;
+    justify-content: center;
+    background-color: #00000001;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+
+    h1{
+        font-family: 'Pacfico', 'Montserrat', sans-serif;
+        margin-left: 10px;
+        
+    }
+}
